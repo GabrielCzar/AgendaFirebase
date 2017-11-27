@@ -18,4 +18,8 @@ public class Contact {
         this.phone = phone;
     }
 
+    @Override
+    public String toString() {
+        return this.name + " " + this.email + " " + this.phone;
+    }
 }
